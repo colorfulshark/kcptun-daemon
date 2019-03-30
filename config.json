@@ -1,0 +1,7 @@
+{
+    "listen": ":29900",
+    "target": "127.0.0.1:12948",
+    "key": "it's a secrect",
+    "crypt": "aes",
+    "mode": "fast"
+}
