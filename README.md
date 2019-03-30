@@ -1,19 +1,19 @@
 # kcptun-daemon
-> > > > > > > > Because kcptun does not support daemon option for now, if you want it running at background, you may need to use something like nohup, which seems more like a testing method. Using systemd to manage it is a better way to handle such situation.
-> > > > > > > >
-> > > > > > > > ## clone repo
-> > > > > > > >
-> > > > > > > > ```shell
-> > > > > > > > git clone https://github.com/colorfulshark/kcptun-daemon.git
-> > > > > > > > ```
-> > > > > > > >
-> > > > > > > > ## install script
-> > > > > > > >
-> > > > > > > > ```shell
-> > > > > > > > cd kcptun-daemon
-> > > > > > > > chmod +x install.sh
-> > > > > > > > sudo ./install.sh
-> > > > > > > > ```
+Because kcptun does not support daemon option for now, if you want it running at background, you may need to use something like nohup, which seems more like a testing method. Using systemd to manage it is a better way to handle such situation.
+
+## clone repo
+
+```shell
+git clone https://github.com/colorfulshark/kcptun-daemon.git
+```
+
+## install script
+
+```shell
+cd kcptun-daemon
+chmod +x install.sh
+sudo ./install.sh
+```
 
 ## install kcptun
 
